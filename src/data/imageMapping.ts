@@ -19,7 +19,7 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   // 1. Homepage
   homeHero: {
     id: 'home-hero',
-    url: '/src/assets/images/hero_architectural_exterior_1793271112313.jpg',
+    url: '/images/hero_architectural_exterior_1793271112313.jpg',
     alt: 'Contemporary Dutch luxury townhouse exterior with steel-framed glass windows',
     caption: 'Amsterdam Residential Facade Modernization',
     category: 'exterior',
@@ -33,9 +33,9 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   },
   homeCraftsmanship: {
     id: 'home-craftsmanship',
-    url: 'https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Professional joiner assembling precision architectural millwork for residential interiors',
-    caption: 'Custom Solid Oak Joinery Fabrication',
+    url: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80',
+    alt: 'Master timber craftsman and carpenter measuring and assembling heavy structural European oak beams',
+    caption: 'Artisanal Timber Framing & Precision Joinery',
     category: 'craftsmanship',
   },
 
@@ -49,15 +49,15 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   },
   aboutMain: {
     id: 'about-main',
-    url: '/src/assets/images/about_architect_craftsmanship_1793271114011.jpg',
+    url: '/images/about_architect_craftsmanship_1793271114011.jpg',
     alt: 'European interior architect and master craftsman reviewing residential blueprints in Amsterdam',
     caption: 'Architectural Planning & Engineering Session',
     category: 'craftsmanship',
   },
   aboutArchitectDrawings: {
     id: 'about-architect-drawings',
-    url: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Architect reviewing technical residential structural drawings and blueprints',
+    url: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=80',
+    alt: 'AutoCAD architectural elevation drawings and structural engineering blueprints',
     caption: 'Structural Calculations & CAD Planning',
     category: 'craftsmanship',
   },
@@ -72,7 +72,7 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   // 3. Residential Page
   residentialHero: {
     id: 'residential-hero',
-    url: '/src/assets/images/residential_townhouse_interior_1793271113481.jpg',
+    url: '/images/residential_townhouse_interior_1793271113481.jpg',
     alt: 'Luxury Amsterdam townhouse living room with high restored ceiling and forest green joinery',
     caption: 'Canal Residence Full Transformation',
     category: 'interior',
@@ -116,7 +116,7 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   // 4. Commercial & Hospitality (Boutique Architectural Projects)
   commercialHero: {
     id: 'commercial-hero',
-    url: '/src/assets/images/commercial_hotel_interior_1793271114811.jpg',
+    url: '/images/commercial_hotel_interior_1793271114811.jpg',
     alt: 'Boutique hotel reception lounge in Amsterdam with fluted timber walls and residential warmth',
     caption: 'Hospitality Architecture & Reception Fit-out',
     category: 'hospitality',
@@ -174,9 +174,9 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   },
   renovationCarpentry: {
     id: 'renovation-carpentry',
-    url: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Master carpenter fitting custom wall paneling and cabinetry',
-    caption: 'Custom Solid Oak Millwork Fitting',
+    url: 'https://images.unsplash.com/photo-1622372738946-62e02505feb3?auto=format&fit=crop&w=1200&q=80',
+    alt: 'Master carpenter fitting bespoke architectural wall paneling and cabinetry',
+    caption: 'Custom Architectural Joinery Fitting',
     category: 'craftsmanship',
   },
   renovationFinished: {
@@ -197,10 +197,10 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   },
   maintenanceWoodwork: {
     id: 'maintenance-woodwork',
-    url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Restoration and microporous painting of traditional Dutch exterior timber windows',
-    caption: 'Exterior Woodwork Moisture Protection',
-    category: 'exterior',
+    url: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=1200&q=80',
+    alt: 'Professional carpentry and timber installation tools on European oak subfloor',
+    caption: 'Exterior & Interior Timber Joinery Servicing',
+    category: 'craftsmanship',
   },
   maintenanceRepairs: {
     id: 'maintenance-repairs',
@@ -211,9 +211,9 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   },
   maintenanceExterior: {
     id: 'maintenance-exterior',
-    url: 'https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Traditional knipvoeg mortar repointing on historic Amsterdam brick facade',
-    caption: 'Historic Dutch Facade Joint Restoration',
+    url: 'https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=1200&q=80',
+    alt: 'Monumental Dutch building undergoing active structural masonry renovation and steel reinforcement',
+    caption: 'Historic Facade & Structural Masonry Restoration',
     category: 'exterior',
   },
 
@@ -308,7 +308,7 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   },
   portfolioZaandijkHouse: {
     id: 'portfolio-zaandijk-house',
-    url: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?auto=format&fit=crop&w=1200&q=80',
+    url: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&q=80',
     alt: 'House renovation in Zaandijk preserving regional timber architecture with modern luxury',
     caption: 'Zaanstreek Residence · Zaandijk',
     category: 'interior',
@@ -329,7 +329,7 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   },
   portfolioAdmiraalDeRuijterweg: {
     id: 'portfolio-admiraal-de-ruijterweg',
-    url: 'https://images.unsplash.com/photo-1600585154508-3a9f0e139824?auto=format&fit=crop&w=1200&q=80',
+    url: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80',
     alt: 'Admiraal de Ruijterweg upper apartment interior renovation with custom oak partitions',
     caption: 'Admiraal de Ruijterweg · Amsterdam West',
     category: 'interior',
@@ -359,8 +359,8 @@ const rawImageMapping: Record<string, ImageRegistryEntry> = {
   },
   contactConsultation: {
     id: 'contact-consultation',
-    url: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Professional construction consultation meeting in modern design studio',
+    url: '/images/consultation_blueprint_desk.jpg',
+    alt: 'Proven Projecten architect and master builder reviewing blueprints and material finishes in Amsterdam',
     caption: 'Direct Project Consultation Desk',
     category: 'craftsmanship',
   },

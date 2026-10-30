@@ -1,3 +1,4 @@
+
 import { ProjectItem } from '../types.ts';
 import { imageRegistry } from './imageMapping.ts';
 
@@ -18,7 +19,7 @@ export const projectsData: EnrichedProjectItem[] = [
     shortDescription: 'Comprehensive architectural refurbishment transforming historical suites, private guest lounges, and bespoke oak and brass finishes.',
     fullDescription: 'A landmark renovation within Amsterdam’s prestigious museum district on Jacob Obrechtstraat. The project encompassed a complete architectural overhaul of boutique guest rooms, acoustic wall partitions, custom walnut millwork, atmospheric architectural lighting, and luxury en-suite bathrooms tailored for discerning visitors.',
     mainImage: imageRegistry.portfolioHotelDeWareJacob.url,
-    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    beforeImage: '/recent-projects/attic-before.jpg',
     afterImage: imageRegistry.portfolioHotelDeWareJacob.url,
     galleryImages: [
       imageRegistry.portfolioHotelDeWareJacob.url,
@@ -85,7 +86,7 @@ export const projectsData: EnrichedProjectItem[] = [
     shortDescription: 'Delicate restoration and modern expansion of a historic Dutch rural cottage, preserving timber roof beams while introducing natural light.',
     fullDescription: 'A sensitive rural restoration that respected the vernacular Dutch heritage of Markenbinnen while transforming dark, partitioned rooms into an open, light-drenched modern family home with exposed solid oak roof trusses and panoramic garden views.',
     mainImage: imageRegistry.portfolioMarkenbinnenCottage.url,
-    beforeImage: 'https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80',
+    beforeImage: '/recent-projects/roof-before.jpg',
     afterImage: imageRegistry.portfolioMarkenbinnenCottage.url,
     galleryImages: [
       imageRegistry.portfolioMarkenbinnenCottage.url,
@@ -118,7 +119,7 @@ export const projectsData: EnrichedProjectItem[] = [
     shortDescription: 'Complete modernization of a 300-year-old traditional Zaanstreek residence, marrying authentic regional green timber cladding with luxury interiors.',
     fullDescription: 'Honoring the legendary wooden architecture of the Zaan region on a property spanning over 300 years of history. This full home transformation updated the building envelope with high-performance acoustic and thermal insulation while crafting an ultra-modern interior with custom oak cabinetry and minimalist lines.',
     mainImage: imageRegistry.portfolioZaandijkHouse.url,
-    beforeImage: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80',
+    beforeImage: '/recent-projects/living-before.jpg',
     afterImage: imageRegistry.portfolioZaandijkHouse.url,
     galleryImages: [
       imageRegistry.portfolioZaandijkHouse.url,
@@ -151,7 +152,7 @@ export const projectsData: EnrichedProjectItem[] = [
     shortDescription: 'Rear glass-walled garden expansion combined with a complete zinc mansard roof dormer and private rooftop terrace construction.',
     fullDescription: 'A multi-level expansion of an Amsterdam residence that maximized spatial efficiency in a dense urban environment. On the ground floor, a full-width glass extension opened the living quarters into the garden; on the top floor, a zinc dormer and private rooftop terrace unlocked panoramic city views.',
     mainImage: imageRegistry.portfolioExtensionsRoofWorks.url,
-    beforeImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
+    beforeImage: '/recent-projects/extension-before.jpg',
     afterImage: imageRegistry.portfolioExtensionsRoofWorks.url,
     galleryImages: [
       imageRegistry.portfolioExtensionsRoofWorks.url,
@@ -184,7 +185,7 @@ export const projectsData: EnrichedProjectItem[] = [
     shortDescription: 'High-spec townhouse renovation in the vibrant De Pijp quarter, restoring classical ornamental plasterwork alongside modern smoked oak kitchen joinery.',
     fullDescription: 'Located on Govert Flinckstraat in Amsterdam’s vibrant De Pijp quarter. Outdated living quarters constrained by aging infrastructure were transformed into a modern, functional, and aesthetically pleasing urban residence, restoring 19th-century ceiling plaster cornices alongside high-efficiency underfloor heating and open-plan kitchen joinery.',
     mainImage: imageRegistry.portfolioGovertFlinckstraat.url,
-    beforeImage: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80',
+    beforeImage: '/recent-projects/kitchen-before.jpg',
     afterImage: imageRegistry.portfolioGovertFlinckstraat.url,
     galleryImages: [
       imageRegistry.portfolioGovertFlinckstraat.url,
@@ -217,7 +218,7 @@ export const projectsData: EnrichedProjectItem[] = [
     shortDescription: 'Streamlined turnkey interior renovation of a light-filled upper apartment with bespoke oak room dividers and Hungarian point French parquet.',
     fullDescription: 'A complete spatial reorganization of an Amsterdam West apartment on Admiraal de Ruijterweg. Walls were reconfigured to optimize natural light and open circulation, while custom slatted oak room dividers created private zones without sacrificing the influx of afternoon sunlight.',
     mainImage: imageRegistry.portfolioAdmiraalDeRuijterweg.url,
-    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    beforeImage: '/recent-projects/living-before.jpg',
     afterImage: imageRegistry.portfolioAdmiraalDeRuijterweg.url,
     galleryImages: [
       imageRegistry.portfolioAdmiraalDeRuijterweg.url,
@@ -250,7 +251,7 @@ export const projectsData: EnrichedProjectItem[] = [
     shortDescription: 'Spa-grade bathroom remodeling showcasing book-matched Roman travertine slabs, walk-in rain shower, and brushed champagne brass fixtures.',
     fullDescription: 'An exquisite master en-suite remodeling within a monumental Keizersgracht canal house. The design combines book-matched Italian travertine slabs, under-vanity ambient glow, and recessed ceiling rain showers, creating a timeless private retreat.',
     mainImage: imageRegistry.portfolioBathroomKeizersgracht.url,
-    beforeImage: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80',
+    beforeImage: '/recent-projects/bath-before.jpg',
     afterImage: imageRegistry.portfolioBathroomKeizersgracht.url,
     galleryImages: [
       imageRegistry.portfolioBathroomKeizersgracht.url,

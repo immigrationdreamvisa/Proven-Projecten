@@ -1,4 +1,5 @@
 import { ServiceItem } from '../types.ts';
+import { imageRegistry } from './imageMapping.ts';
 
 export const servicesData: ServiceItem[] = [
   {
@@ -103,7 +104,7 @@ export const servicesData: ServiceItem[] = [
     shortDescription: 'Scheduled preventative maintenance, technical inspections, and rapid remedial upkeep for residential and commercial portfolios.',
     fullDescription: 'Preserve property value and architectural integrity with our disciplined maintenance programs. We provide scheduled roof inspections, masonry moisture checks, exterior timber protection, and proactive technical servicing tailored for high-value Dutch real estate.',
     category: 'both',
-    imageUrl: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: imageRegistry.maintenanceHero.url,
     scopeOfWork: [
       'Annual building envelope integrity & roof flashing inspections',
       'Gutter cleaning, drainage clearing & moisture barrier audits',
@@ -122,7 +123,7 @@ export const servicesData: ServiceItem[] = [
     shortDescription: 'Artisanal architectural joinery, bespoke wall paneling, custom walk-in wardrobes, and handcrafted storage solutions.',
     fullDescription: 'Our master carpenters construct made-to-measure woodwork tailored precisely to your property’s dimensions. From floor-to-ceiling library shelving with integrated ladders to seamless acoustic slatted acoustic wall features, our woodwork adds warmth, function, and enduring beauty.',
     category: 'both',
-    imageUrl: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: imageRegistry.homeCraftsmanship.url,
     scopeOfWork: [
       'Digital 3D laser templating and shop drawing preparation',
       'Custom closet, dressing room and bespoke library fabrication',
@@ -179,7 +180,7 @@ export const servicesData: ServiceItem[] = [
     shortDescription: 'Restoration of historic Dutch facades, masonry repointing, zinc roofing, thermally broken windows, and modern exterior cladding.',
     fullDescription: 'Preserve the architectural heritage and improve energy efficiency of your building facade. We specialize in historical lime mortar joint restoration (knipvoeg & snijvoeg), exterior zinc craftsmanship, and modern thermally insulated facade upgrades.',
     category: 'both',
-    imageUrl: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: imageRegistry.maintenanceExterior.url,
     scopeOfWork: [
       'Careful masonry cleaning and traditional knipvoeg joint restoration',
       'Replacement of traditional sash windows with vacuum double glazing',

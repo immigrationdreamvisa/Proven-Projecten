@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { ArrowRight, CheckCircle2, X } from 'lucide-react';
 import { ArchitecturalImage } from './ArchitecturalImage.tsx';
+import { imageMapping } from '../data/imageMapping.ts';
 import { AnimatedFacadeDrawing, BlueprintGrid } from './motion/BlueprintElements.tsx';
 
 interface AboutSectionProps {
@@ -55,7 +56,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenConsultation }
               className="relative z-10 w-full sm:w-11/12 aspect-4/3 overflow-hidden shadow-xl border border-[#E9E4DA] group"
             >
               <img
-                src="/src/assets/images/about_architect_craftsmanship_1793271114011.jpg"
+                src="/images/about_architect_craftsmanship_1793271114011.jpg"
                 alt="Proven Projecten architect and craftsman reviewing blueprints in Amsterdam"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -74,12 +75,12 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenConsultation }
               className="hidden sm:block absolute -bottom-10 -right-4 z-20 w-3/5 aspect-4/3 overflow-hidden shadow-2xl border-4 border-[#FFFFFF] group"
             >
               <ArchitecturalImage
-                src="https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?auto=format&fit=crop&w=800&q=80"
-                alt="Precision carpentry joinery detail"
+                src={imageMapping.homeCraftsmanship.url}
+                alt={imageMapping.homeCraftsmanship.alt}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute bottom-2 left-2 right-2 bg-[#252824]/90 backdrop-blur-xs p-2 text-[10px] text-[#F7F6F2] font-mono">
-                Precision Millwork · Solid European Oak
+                {imageMapping.homeCraftsmanship.caption}
               </div>
             </motion.div>
 

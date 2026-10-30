@@ -99,7 +99,7 @@ export const CommercialSection: React.FC<CommercialSectionProps> = ({
           <div className="lg:col-span-6">
             <div className="relative aspect-16/10 sm:aspect-4/3 overflow-hidden shadow-2xl border border-[#E9E4DA]">
               <img
-                src="/src/assets/images/commercial_hotel_interior_1793271114811.jpg"
+                src="/images/commercial_hotel_interior_1793271114811.jpg"
                 alt="Proven Projecten commercial boutique hotel lobby renovation in Amsterdam"
                 className="w-full h-full object-cover"
               />

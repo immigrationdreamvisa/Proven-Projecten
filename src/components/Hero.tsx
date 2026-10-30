@@ -152,7 +152,7 @@ export const Hero: React.FC<HeroProps> = ({
                   repeatType: 'reverse',
                   ease: 'easeInOut',
                 }}
-                src="/src/assets/images/hero_architectural_exterior_1793271112313.jpg"
+                src="/images/hero_architectural_exterior_1793271112313.jpg"
                 alt="Proven Projecten contemporary European townhouse renovation"
                 className="w-full h-full object-cover"
               />

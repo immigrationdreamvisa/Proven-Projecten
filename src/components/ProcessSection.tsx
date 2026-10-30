@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, CheckCircle2, FileSpreadsheet, Compass, HardHat, Key } from 'lucide-react';
 import { ArchitecturalImage } from './ArchitecturalImage.tsx';
+import { imageMapping } from '../data/imageMapping.ts';
 
 interface ProcessSectionProps {
   onOpenConsultation: () => void;
@@ -36,7 +37,7 @@ const STEPS = [
       'Physical material samples (oak, stone, mineral plaster)',
       'Municipal permit filings (omgevingsvergunning)',
     ],
-    previewImage: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80',
+    previewImage: imageMapping.aboutArchitectDrawings.url,
   },
   {
     step: '03',
@@ -51,7 +52,7 @@ const STEPS = [
       'Weekly digital photographic progress reports',
       'VCA safety compliance and dust-containment protocol',
     ],
-    previewImage: 'https://images.unsplash.com/photo-1541888946425-d0fbb18615f8?auto=format&fit=crop&w=1000&q=80',
+    previewImage: imageMapping.homeCraftsmanship.url,
   },
   {
     step: '04',
@@ -66,7 +67,7 @@ const STEPS = [
       'As-built documentation and technical maintenance manual',
       'Comprehensive statutory construction guarantee',
     ],
-    previewImage: '/src/assets/images/residential_townhouse_interior_1793271113481.jpg',
+    previewImage: '/images/residential_townhouse_interior_1793271113481.jpg',
   },
 ];
 

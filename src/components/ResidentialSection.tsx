@@ -18,7 +18,7 @@ export const ResidentialSection: React.FC<ResidentialSectionProps> = ({
           <div className="lg:col-span-6 order-2 lg:order-1">
             <div className="relative aspect-16/10 sm:aspect-4/3 overflow-hidden shadow-2xl border border-[#E9E4DA]">
               <img
-                src="/src/assets/images/residential_townhouse_interior_1793271113481.jpg"
+                src="/images/residential_townhouse_interior_1793271113481.jpg"
                 alt="Proven Projecten residential living room townhouse renovation"
                 className="w-full h-full object-cover"
               />
